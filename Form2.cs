@@ -21,7 +21,7 @@ namespace Pazzl
         {
             try
             {
-                string fullImagePath = @"C:\Users\gold_\Downloads\singapore.jpg";
+                string fullImagePath = @"C:\Users\gold_\source\repos\Pazzl\singapore.jpg";
                 pictureBoxFull.Image = Image.FromFile(fullImagePath);
             } catch (Exception ex)
             {

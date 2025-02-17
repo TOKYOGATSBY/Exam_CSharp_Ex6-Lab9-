@@ -35,7 +35,7 @@ namespace Pazzl
             images = new Image[16];
             for (int i = 0; i < images.Length; i++)
             {
-                images[i] = Image.FromFile($@"C:\Users\gold_\Downloads\singapore-goroda-singapur--singapur-pano-1299039.jpg\{i + 1}.jpg");
+                images[i] = Image.FromFile($@"C:\Users\gold_\source\repos\Pazzl\singapore_city\{i + 1}.jpg");
             }
         }
 
